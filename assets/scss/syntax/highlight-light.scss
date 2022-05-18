@@ -1,4 +1,4 @@
-$ht-code-bgcolor: #dde2ff;
+$ht-code-bgcolor: #fdf6e3;
 
 @import "syntax-light.scss";
 
@@ -8,5 +8,9 @@ $ht-code-bgcolor: #dde2ff;
     }
     &::-webkit-scrollbar-thumb {
         background: scale-color($ht-code-bgcolor, $lightness: -13%, $saturation: -80%);
+    }
+
+    pre {
+        padding-left: 0.25em;
     }
 }
